@@ -17,5 +17,5 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, repositories
           plugin_lines: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'gracioustracy/gracioustracy' }}
           output_action: pull-request
