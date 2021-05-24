@@ -6,7 +6,7 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    if: "github.repository == 'lowlighter/lowlighter'"
+    if: "github.repository == 'gracioustracy/gracioustracy'"
     steps:
     # Classic template example
       - name: 📗 Classic template
